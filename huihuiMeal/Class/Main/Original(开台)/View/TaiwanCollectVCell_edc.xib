@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="TaiwanCollectVCell_edc" customModule="huihuiMeal" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="140" height="133"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="140" height="133"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="m8d-yA-toe">
+                        <rect key="frame" x="0.0" y="0.0" width="140" height="133"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="01号桌" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XtD-IP-E1y">
+                                <rect key="frame" x="10" y="10" width="41" height="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="人数6" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZgT-sY-IMd">
+                                <rect key="frame" x="10" y="108.5" width="32.5" height="14.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="金额" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gL0-dW-aat">
+                                <rect key="frame" x="105" y="108.5" width="25" height="14.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_booking" translatesAutoresizingMaskIntoConstraints="NO" id="qtu-YL-rHi">
+                                <rect key="frame" x="122" y="10" width="8" height="12"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="XtD-IP-E1y" firstAttribute="leading" secondItem="m8d-yA-toe" secondAttribute="leading" constant="10" id="2hS-pa-AJa"/>
+                            <constraint firstAttribute="trailing" secondItem="gL0-dW-aat" secondAttribute="trailing" constant="10" id="JCp-mV-HHa"/>
+                            <constraint firstAttribute="bottom" secondItem="ZgT-sY-IMd" secondAttribute="bottom" constant="10" id="ZWg-Vs-Zkj"/>
+                            <constraint firstAttribute="bottom" secondItem="gL0-dW-aat" secondAttribute="bottom" constant="10" id="duc-MK-icw"/>
+                            <constraint firstItem="ZgT-sY-IMd" firstAttribute="leading" secondItem="m8d-yA-toe" secondAttribute="leading" constant="10" id="ejx-su-7vj"/>
+                            <constraint firstItem="qtu-YL-rHi" firstAttribute="top" secondItem="m8d-yA-toe" secondAttribute="top" constant="10" id="rJ3-OZ-SS5"/>
+                            <constraint firstAttribute="trailing" secondItem="qtu-YL-rHi" secondAttribute="trailing" constant="10" id="x1W-SG-g9S"/>
+                            <constraint firstItem="XtD-IP-E1y" firstAttribute="top" secondItem="m8d-yA-toe" secondAttribute="top" constant="10" id="yJn-c1-N1l"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="m8d-yA-toe" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="6wF-wa-U0A"/>
+                <constraint firstAttribute="trailing" secondItem="m8d-yA-toe" secondAttribute="trailing" id="800-59-pv2"/>
+                <constraint firstItem="m8d-yA-toe" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="ZtK-SO-0RH"/>
+                <constraint firstAttribute="bottom" secondItem="m8d-yA-toe" secondAttribute="bottom" id="oUj-80-7Hw"/>
+            </constraints>
+            <size key="customSize" width="165" height="133"/>
+            <connections>
+                <outlet property="Num" destination="XtD-IP-E1y" id="xAp-dj-A4U"/>
+                <outlet property="Openpwd" destination="qtu-YL-rHi" id="OU7-AA-GQD"/>
+                <outlet property="Population" destination="ZgT-sY-IMd" id="Tgr-6m-ttr"/>
+                <outlet property="bgView" destination="m8d-yA-toe" id="VjO-4d-uUL"/>
+            </connections>
+            <point key="canvasLocation" x="-190" y="2"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="ic_booking" width="8" height="12"/>
+    </resources>
+</document>
